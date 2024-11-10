@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/input_voltage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Voltage (kV)" />
+
+    <EditText
+        android:id="@+id/input_current"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Current (A)" />
+
+    <EditText
+        android:id="@+id/input_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Duration (s)" />
+
+    <EditText
+        android:id="@+id/input_power_station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Power Station (kW)" />
+
+    <EditText
+        android:id="@+id/input_transformer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Transformer Power (kW)" />
+
+    <EditText
+        android:id="@+id/input_capacity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capacity (kW)" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/result_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>
